@@ -1,5 +1,5 @@
-<h1>KVS Beginner's</h1>
-<h2>Event Driven Programming</h2>
+<h1>KVS Beginners</h1>
+<h2>Chapter 1: Event Driven Programming</h2>
 <h3>Introduction</h3>
 
 This file is a note that aims to teach beginners about handling events in KVS. 
