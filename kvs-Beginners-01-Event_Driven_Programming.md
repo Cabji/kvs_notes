@@ -1,12 +1,12 @@
-<h1>KVS - Beginner's Tutorial - Event Driven Programming</h1>
-
-<h2>Introduction</h2>
+<h1>KVS Beginner's</h1>
+<h2>Event Driven Programming</h2>
+<h3>Introduction</h3>
 
 This file is a note that aims to teach beginners about handling events in KVS. 
 
 Some of the terminology in this note may be incorrect, as I do not write code professionally. I apologize for this, but it's the only way I can document what I learn and share with others.
 
-<h2>Event Driven Programming</h2>
+<h3>Event Driven Programming</h3>
 
 I'll define "event driven programming" as any programming language that lets you handle events. If you don't understand what this means, it's a way that we can write a program so that it can react to what a user does with the input methods they have (example: mouse movement, clicks and keyboard presses, or on touch devices swiping, touching, holding etc.) or things that occur in the scope of the software running on the computer. This means anything that the computer does or other programs do can be classed as events, (example: a webpage finishes loading, a file download fails, a file download finishes successfully or some extended function process completes. Literally almost anything can be thought of as an event.)
 
@@ -14,7 +14,7 @@ KVS is a scripting language that exists inside the KVIrc software environment, s
 
 How can you make your software or script interact with the events that KVIrc deals with or generates? By writing <i>Event Handlers</i>. You can create a handler in the Edit Events... listing. Choose an event and click on it. In the editor panel to the right, you will see some information about the event you selected (name, parameters). If you opposite click the event name in the list on the left, a popup menu will appear that says New Handler. Select New Handler to create a new handler for that Event.
 
-<h2>Code Example: onChannelMessage Event Handler</h2>
+<h3>Code Example: onChannelMessage Event Handler</h3>
 
 Let's make an event handler for the onChannelMessage event. We'll use this event because it's very commonly occuring, so we will see a result immediately assuming of course that you are connected to some active channels on an IRC network! If you aren't just join a random channel where people are chatting (you need people to be chatting for the onChannelMessage event to occur).
 
