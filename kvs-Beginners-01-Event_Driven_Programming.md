@@ -43,3 +43,5 @@ Now the debug window will only echo a message back to you <i>if the message cont
 So that's how simple it is to write some Event Driven code using KVIrc and KVS. KVIrc is a great environment to learn about this style of programming because it has a whole base that you can interact with in the form of the IRC client. If you continue on and improve your skills, you can also write code so that it <i>generates events</i> and then handles them as well.
 
 For now, play around with the pre-existing events in KVIrc and see what you can do with them.
+
+Continue on to Chapter 2 - Script Tester: https://github.com/Cabji/kvs_notes/blob/master/kvs-Beginners-02-Scripts_Tester.md
