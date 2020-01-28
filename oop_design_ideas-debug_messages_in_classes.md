@@ -239,6 +239,12 @@ This method can be used to pass any common values across classes. For example, I
 
 We can now use values from @%a in <i>either</i> class' code and get the same values in our output.
 
+<h3>Limitations of This Method</h3>
+
+This method is useful if you want your debug toggle to be set only at object instantitiation. If you change the value of the parent class' @%debug member at runtime, it <i>will not</i> alter the values of the child class' @%debug members.
+
+When I work out a good way of doing this, I will update this guide. If you know a good way to do this already, feel free to contact me and let me know.
+
 <h2>Conclusion</h2>
 
 Hopefully this makes sense for you and you can use it to improve your knowledge of KVS, OOP and program design. If you have any comments feel free to leave them as I am always trying to improve how I do things and am interested to know other methods of doing things like this.
