@@ -1,4 +1,4 @@
-[h1]KVS - Classes - What Is An Internal Function?[/h1]
+<h1>KVS - Classes - What Is An Internal Function?</h1>
 
 The class command documentation (https://www.kvirc.net/doc/cmd_class.html) explains what an Internal Function is in KVS: 
 
